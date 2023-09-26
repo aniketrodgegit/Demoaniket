@@ -47,7 +47,7 @@ public class practo{
         driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(10));
         WebElement mobile=driver.findElement(By.xpath("//input[@name='phone']"));
 
-        mobile.sendKeys("0000000000");
+        mobile.sendKeys("123456789");
 
     }
 }
