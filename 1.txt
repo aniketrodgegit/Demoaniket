@@ -20,7 +20,7 @@ public class practo{
     public static void main(String[] args) throws InterruptedException {
         EdgeOptions option = new EdgeOptions();
         option.addArguments("--remote-allow-origins=*");
-//      option.addArguments("--headless");
+//      option.addArguments("--headless");;
         WebDriverManager.edgedriver().setup();
         WebDriver driver = new EdgeDriver(option);
         driver.manage().window().maximize();
